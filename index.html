@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Medical Service Workload Animation</title>
+    <title>Interactive Hospital Workload by Pathophysiology</title>
     <script src="https://oristrell.github.io/Circlepack/d3.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/save-svg-as-png"></script>
 	<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
@@ -288,7 +288,7 @@
                       .attr("height", height);
 
         const g = svg.append("g")
-                     .attr("transform", `translate(${width / 2 + 10},${height / 2 + 10})`);
+                     .attr("transform", `translate(${width / 2 + 30},${height / 2 + 10})`);
 
         const title = svg.append("text")
                          .attr("class", "title")
@@ -665,6 +665,7 @@
     </script>
 </body>
 </html>
+
 
 
 
